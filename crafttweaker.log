@@ -34,7 +34,7 @@
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: OreDic.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Saw to ore dictionary entry artisansHandsaw
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 287ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 289ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Oak Wood Planks with name ct_shapeless2002667340
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Spruce Wood Planks with name ct_shapeless1568682668
@@ -42,6 +42,52 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Jungle Wood Planks with name ct_shapeless-1186097556
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Acacia Wood Planks with name ct_shapeless1503539106
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Dark Oak Wood Planks with name ct_shapeless-287955814
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Larch Wood Planks with name ct_shapeless1769649163
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Teak Wood Planks with name ct_shapeless-1456280277
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Desert Acacia Wood Planks with name ct_shapeless-1017347253
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Lime Wood Planks with name ct_shapeless-578414229
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Chestnut Wood Planks with name ct_shapeless-1675039534
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Wenge Wood Planks with name ct_shapeless1183261416
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Baobab Wood Planks with name ct_shapeless1622194440
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Sequoia Wood Planks with name ct_shapeless2061127464
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Kapok Wood Planks with name ct_shapeless1402564047
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ebony Wood Planks with name ct_shapeless-472164187
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Mahogany Wood Planks with name ct_shapeless-1024377534
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Balsa Wood Planks with name ct_shapeless-585444510
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Willow Wood Planks with name ct_shapeless-557729655
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Walnut Wood Planks with name ct_shapeless1176231135
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Greenheart Wood Planks with name ct_shapeless1615164159
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cherry Wood Planks with name ct_shapeless2054097183
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Mahoe Wood Planks with name ct_shapeless-1752454034
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Poplar Wood Planks with name ct_shapeless2114071822
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Palm Wood Planks with name ct_shapeless-1741962450
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Papaya Wood Planks with name ct_shapeless-1303029426
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pine Wood Planks with name ct_shapeless-1233335947
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Plum Wood Planks with name ct_shapeless458646219
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Maple Wood Planks with name ct_shapeless897579243
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Citrus Wood Planks with name ct_shapeless1336512267
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Giant Sequoia Wood Planks with name ct_shapeless1844267634
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ipe Wood Planks with name ct_shapeless-1196779384
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Padauk Wood Planks with name ct_shapeless-1138871481
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cocobolo Wood Planks with name ct_shapeless-699938457
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Zebrawood Wood Planks with name ct_shapeless139357134
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Maple Planks with name ct_shapeless-687940789
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Silverbell Planks with name ct_shapeless869585323
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Amaranth Planks with name ct_shapeless971420811
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tigerwood Planks with name ct_shapeless1073256299
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Willow Planks with name ct_shapeless-800439869
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Eucalyptus Planks with name ct_shapeless-1744756357
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Hopseed Planks with name ct_shapeless1384438141
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Sakura Planks with name ct_shapeless218665343
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Redwood Planks with name ct_shapeless303677636
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ghostwood Planks with name ct_shapeless-1647532815
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ghostwood Planks with name ct_shapeless732699279
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Bloodwood Planks with name ct_shapeless1731646348
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Darkwood Planks with name ct_shapeless-1306926048
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fusewood Planks with name ct_shapeless-675543902
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Spruce Wood Planks with name ct_shapeless1712145269
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Birch Wood Planks with name ct_shapeless-800398571
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Dark Oak Wood Planks with name ct_shapeless250057459
 [AVAILABLE][CLIENT][INFO] Cleared entries of table minecraft:chests/abandoned_mineshaft
 [AVAILABLE][CLIENT][INFO] Applied tweaks to table minecraft:chests/abandoned_mineshaft
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <jjcoa:block_struttura_stendardo_1b>

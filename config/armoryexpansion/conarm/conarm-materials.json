@@ -903,6 +903,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 18.0,
+      "defense": 19.125,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 12.432,
+      "modifier": 19.125,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 12.432,
+      "materialType": "trim"
+    },
+    "identifier": "thaumium",
+    "color": -14811034,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 0.0,
       "defense": 0.0,
       "materialType": "core"

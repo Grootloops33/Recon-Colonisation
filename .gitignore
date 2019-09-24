@@ -7,3 +7,6 @@
 options.txt
 usercache.json
 usernamecache.json
+minecraftinstance.json
+llibrary/debug/net.minecraft.client.renderer.EntityRenderer.class
+.mixin.out/audit/mixin_implementation_report.txt
