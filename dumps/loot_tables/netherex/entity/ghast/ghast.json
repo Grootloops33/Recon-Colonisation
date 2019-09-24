@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "ghast_meat_loot_pool",
+      "entries": [
+        {
+          "entryName": "netherex:ghast_meat_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "netherex:ghast_meat_raw"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
