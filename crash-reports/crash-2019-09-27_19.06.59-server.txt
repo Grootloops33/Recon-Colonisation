@@ -1,0 +1,241 @@
+---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 2019-09-27 19:06:59 CEST
+Description: Error executing task
+
+java.util.concurrent.ExecutionException: java.lang.NoSuchMethodError: com.golems_tcon.entity.EntityCobaltGolem.isPlayerCreated()Z
+    at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+    at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+    at net.minecraft.util.Util.runTask(SourceFile:531)
+    at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723)
+    at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668)
+    at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185)
+    at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+    at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: com.golems_tcon.entity.EntityCobaltGolem.isPlayerCreated()Z
+    at com.golems_tcon.entity.EntityCobaltGolem.replaceWith(EntityCobaltGolem.java:63)
+    at com.golems_tcon.entity.EntityCobaltGolem.onBuilt(EntityCobaltGolem.java:47)
+    at com.golems.blocks.BlockGolemHead.trySpawnGolem(BlockGolemHead.java:169)
+    at com.golems.blocks.BlockGolemHead.onBlockAdded(BlockGolemHead.java:94)
+    at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:951)
+    at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:186)
+    at net.minecraft.server.management.PlayerInteractionManager.processRightClickBlock(PlayerInteractionManager.java:492)
+    at net.minecraft.network.NetHandlerPlayServer.processTryUseItemOnBlock(NetHandlerPlayServer.java:741)
+    at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(SourceFile:55)
+    at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(SourceFile:11)
+    at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13)
+    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+    at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    at net.minecraft.util.Util.runTask(SourceFile:529)
+    ... 5 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 2779297496 bytes (2650 MB) / 6038224896 bytes (5758 MB) up to 9289334784 bytes (8859 MB)
+  JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx9966m -Xms256m -XX:PermSize=256m
+  IntCache: cache: 0, tcache: 0, allocated: 4, tallocated: 105
+  FML: MCP 9.42 Powered by Forge 14.23.5.2847 134 mods loaded, 134 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                                           | Version                  | Source                                        | Signature                                |
+       |:------ |:-------------------------------------------- |:------------------------ |:--------------------------------------------- |:---------------------------------------- |
+       | LCHIJA | minecraft                                    | 1.12.2                   | minecraft.jar                                 | None                                     |
+       | LCHIJA | mcp                                          | 9.42                     | minecraft.jar                                 | None                                     |
+       | LCHIJA | FML                                          | 8.0.99.99                | forge-1.12.2-14.23.5.2847.jar                 | None                                     |
+       | LCHIJA | forge                                        | 14.23.5.2847             | forge-1.12.2-14.23.5.2847.jar                 | None                                     |
+       | LCHIJA | com.elytradev.movingworld.common.asm.coremod |                          | minecraft.jar                                 | None                                     |
+       | LCHIJA | openmodscore                                 | 0.12.2                   | minecraft.jar                                 | None                                     |
+       | LCHIJA | foamfixcore                                  | 7.7.4                    | minecraft.jar                                 | None                                     |
+       | LCHIJA | dsurroundcore                                | 3.5.4.3                  | minecraft.jar                                 | None                                     |
+       | LCHIJA | randompatches                                | 1.12.2-1.18.2.1          | Core Mods - RandomPatches.jar                 | None                                     |
+       | LCHIJA | aether_legacy                                | 1.4.4                    | Aether Legacy - Main.jar                      | None                                     |
+       | LCHIJA | infinitylib                                  | 1.12.2-1.12.0            | Core Mods - InfinityLib.jar                   | None                                     |
+       | LCHIJA | agricraft                                    | 2.12.0-1.12.0-a6         | AgriCraft-2.12.0-1.12.0-a6(1).jar             | None                                     |
+       | LCHIJA | codechickenlib                               | 3.2.3.358                | Core Mods - CodeChickenLib.jar                | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | ancientwarfare                               | 1.12.2-2.7.0.772         | ancientwarfare-1.12.2-2.7.0.772.jar           | None                                     |
+       | LCHIJA | ancientwarfarestructure                      | 1.12.2-2.7.0.772         | ancientwarfare-1.12.2-2.7.0.772.jar           | None                                     |
+       | LCHIJA | ancientwarfarevehicle                        | 1.12.2-2.7.0.772         | ancientwarfare-1.12.2-2.7.0.772.jar           | None                                     |
+       | LCHIJA | ancientwarfarenpc                            | 1.12.2-2.7.0.772         | ancientwarfare-1.12.2-2.7.0.772.jar           | None                                     |
+       | LCHIJA | redstoneflux                                 | 2.1.0                    | Core Mods - Redstone Flux.jar                 | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LCHIJA | ancientwarfareautomation                     | 1.12.2-2.7.0.772         | ancientwarfare-1.12.2-2.7.0.772.jar           | None                                     |
+       | LCHIJA | antiqueatlas                                 | 4.5.1                    | antiqueatlas-1.12.2-4.5.1.jar                 | e631d7254e451d0360d0148cb21407d5511d45e9 |
+       | LCHIJA | antiqueatlasoverlay                          | 1.2                      | antiqueatlas-1.12.2-4.5.1.jar                 | e631d7254e451d0360d0148cb21407d5511d45e9 |
+       | LCHIJA | aquaculture                                  | 1.6.8                    | Aquaculture-1.12.2-1.6.8.jar                  | None                                     |
+       | LCHIJA | crafttweaker                                 | 4.1.19                   | Tweaks - CraftTweaker.jar                     | None                                     |
+       | LCHIJA | baubles                                      | 1.5.2                    | User Interface - Baubles.jar                  | None                                     |
+       | LCHIJA | astralsorcery                                | 1.10.20                  | astralsorcery-1.12.2-1.10.20.jar              | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+       | LCHIJA | betterquesting                               | 3.5.311                  | BetterQuesting - Main.jar                     | None                                     |
+       | LCHIJA | customnpcs                                   | 1.12                     | CustomNPCs_1.12.2(30Jan19).jar                | None                                     |
+       | LCHIJA | bq_npc_integration                           | 3.4.34                   | BetterQuesting - NPC Interaction.jar          | None                                     |
+       | LCHIJA | questbook                                    | 3.1.1-1.12               | BetterQuesting - Questbook.jar                | None                                     |
+       | LCHIJA | jei                                          | 4.15.0.289               | User Interface - Just Enough Items.jar        | None                                     |
+       | LCHIJA | bq_standard                                  | 3.4.167                  | BetterQuesting - Standard Expansion.jar       | None                                     |
+       | LCHIJA | bibliocraft                                  | 2.4.5                    | Bibliocraft - Main.jar                        | None                                     |
+       | LCHIJA | biomesoplenty                                | 7.0.1.2441               | BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar | None                                     |
+       | LCHIJA | blockcraftery                                | 1.12.2-1.3.1             | blockcraftery-1.12.2-1.3.1.jar                | None                                     |
+       | LCHIJA | cyclicmagic                                  | 1.19.16                  | Cyclic-1.12.2-1.19.16.jar                     | 1bc8f8dbe770187a854cef35dad0ff40ba441bbe |
+       | LCHIJA | guideapi                                     | 1.12-2.1.8-63            | Core Mods - GuideAPI.jar                      | None                                     |
+       | LCHIJA | bloodmagic                                   | 1.12.2-2.4.2-104         | Blood Magic - Main.jar                        | None                                     |
+       | LCHIJA | theoneprobe                                  | 1.4.28                   | User Interface - The One Probe.jar            | None                                     |
+       | LCHIJA | animus                                       | 1                        | Blood Magic - Animus.jar                      | None                                     |
+       | LCHIJA | ctm                                          | MC1.12.2-0.3.3.22        | Tweaks - Connected Textures Mod.jar           | None                                     |
+       | LCHIJA | chisel                                       | MC1.12.2-0.2.1.35        | Chisel-MC1.12.2-0.2.1.35.jar                  | None                                     |
+       | LCHIJA | mantle                                       | 1.12-1.3.3.55            | Core Mods - Mantle.jar                        | None                                     |
+       | LCHIJA | thaumcraft                                   | 6.1.BETA26               | Thaumcraft-1.12.2-6.1.BETA26.jar              | None                                     |
+       | LCHIJA | twilightforest                               | 3.9.984                  | Twilight Forest - Main.jar                    | None                                     |
+       | LCHIJA | tconstruct                                   | 1.12.2-2.12.0.157        | Tinker's Construct - Main.jar                 | None                                     |
+       | LCHIJA | bloodarsenal                                 | 1.12.2-2.2.0-28          | Blood Magic - Blood Arsenal.jar               | None                                     |
+       | LCHIJA | botania                                      | r1.10-362                | Botania - Main.jar                            | None                                     |
+       | LCHIJA | reskillable                                  | 1.12.2-GRADLE:BUILD      | Reskillable-1.12.2-1.12.5.jar                 | None                                     |
+       | LCHIJA | immersiveengineering                         | 0.12-91                  | ImmersiveEngineering-0.12-91.jar              | 4cb49fcde3b43048c9889e0a3d083225da926334 |
+       | LCHIJA | compatskills                                 | 1.12.2-1.16.3            | CompatSkills-1.12.2-1.16.3.jar                | None                                     |
+       | LCHIJA | athenaeum                                    | 1.12.2-1.17.4            | Core Mods - Athenaeum.jar                     | None                                     |
+       | LCHIJA | mousetweaks                                  | 2.10                     | Tweaks - MouseTweaks.jar                      | None                                     |
+       | LCHIJA | artisanworktables                            | 1.12.2-1.22.3            | Content - Artisan Worktables.jar              | None                                     |
+       | LCHIJA | artisanintegrations                          | 1.12.2-1.0.0             | Content - Artisan Tweaks.jar                  | None                                     |
+       | LCHIJA | champions                                    | 1.12.2-1.0.10.1          | Content - Champions.jar                       | 5d5b8aee896a4f5ea3f3114784742662a67ad32f |
+       | LCHIJA | brandonscore                                 | 2.4.17                   | Core Mods - Brandon's Core.jar                | None                                     |
+       | LCHIJA | draconicevolution                            | 2.3.24                   | Content - Draconic Evolution.jar              | None                                     |
+       | LCHIJA | cucumber                                     | 1.1.3                    | Core Mods - Cucumber.jar                      | None                                     |
+       | LCHIJA | extendedcrafting                             | 1.5.6                    | Content - Extended Crafting.jar               | None                                     |
+       | LCHIJA | jjcoa                                        | 1.0.9                    | Content - JJ Coats of Arms.jar                | None                                     |
+       | LCHIJA | coralreef                                    | 2.0                      | CoralReef-2.5-1.12.2.jar                      | None                                     |
+       | LCHIJA | applecore                                    | 3.2.0                    | Core Mods - AppleCore.jar                     | None                                     |
+       | LCHIJA | akashictome                                  | 1.2-12                   | Guide - Akashic Tome.jar                      | None                                     |
+       | LCHIJA | autoreglib                                   | 1.3-32                   | Core Mods - AutoRegLib.jar                    | None                                     |
+       | LCHIJA | base                                         | 3.13.0                   | Core Mods - BASE.jar                          | None                                     |
+       | LCHIJA | chameleon                                    | 1.12-4.1.3               | Core Mods - Chameleon.jar                     | None                                     |
+       | LCHIJA | libraryex                                    | 1.0.11                   | Core Mods - LibraryEx.jar                     | None                                     |
+       | LCHIJA | movingworld                                  | 1.12-6.342               | Core Mods - MovingWorld.jar                   | None                                     |
+       | LCHIJA | swordskillsapi                               | 1.1.0                    | Core Mods - SwordSkillsAPI.jar                | None                                     |
+       | LCHIJA | davincisvessels                              | @DVESSELSVER@            | davincisvessels-1.12-6.340-full.jar           | None                                     |
+       | LCHIJA | dynamictrees                                 | 1.12.2-0.9.5             | Dynamic Trees - Main.jar                      | None                                     |
+       | LCHIJA | dynamictreesbop                              | 1.12.2-1.4.1e            | Dynamic Trees - Biomes O' Plenty.jar          | None                                     |
+       | LCHIJA | harvestcraft                                 | 1.12.2zb                 | Pam's Harvestcraft - Main.jar                 | None                                     |
+       | LCHIJA | dynamictreesphc                              | 1.12.2-1.4.2             | Dynamic Trees - Pam's HarvestCraft.jar        | None                                     |
+       | LCHIJA | dynamictreestc                               | 1.12.2-1.4.1e            | Dynamic Trees - Thaumcraft.jar                | None                                     |
+       | LCHIJA | golems                                       | 7.1.6                    | ExtraGolems-1.12-7.1.6.jar                    | None                                     |
+       | LCHIJA | roguelike                                    | 1.8.0                    | Generation - Roguelike Dungeons .jar          | None                                     |
+       | LCHIJA | llibrary                                     | 1.7.19                   | Core Mods - LLibrary.jar                      | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+       | LCHIJA | iceandfire                                   | 1.8.1                    | Ice & Fire - Main.jar                         | None                                     |
+       | LCHIJA | fluidtank                                    | 12.4.7                   | LargeFluidTank-12.4.7.jar                     | 617a4e95f0af9de5402bb9883abe0f53a6bfa230 |
+       | LCHIJA | fluidtank_ae2                                | 12.4.7                   | LargeFluidTank-12.4.7.jar                     | 617a4e95f0af9de5402bb9883abe0f53a6bfa230 |
+       | LCHIJA | fluidtank_theoneprobe                        | 12.4.7                   | LargeFluidTank-12.4.7.jar                     | 617a4e95f0af9de5402bb9883abe0f53a6bfa230 |
+       | LCHIJA | mysticalagriculture                          | 1.7.5                    | Mystical Agriculture - Main.jar               | None                                     |
+       | LCHIJA | mysticalagradditions                         | 1.3.2                    | Mystical Agriculture - Agradditions.jar       | None                                     |
+       | LCHIJA | matc                                         | 1.0.1-hotfix             | Mystical Agriculture - Tiered Crystals.jar    | None                                     |
+       | LCHIJA | natura                                       | 1.12.2-4.3.2.69          | natura-1.12.2-4.3.2.69.jar                    | None                                     |
+       | LCHIJA | contenttweaker                               | 1.12.2-4.9.1             | Tweaks - ContentTweaker.jar                   | None                                     |
+       | LCHIJA | conarm                                       | 1.2.4                    | Tinker's Construct - Construct's Armory.jar   | 5d5b8aee896a4f5ea3f3114784742662a67ad32f |
+       | LCHIJA | plustic                                      | 7.1.6.1                  | Tinker's Construct - PlusTiC.jar              | None                                     |
+       | LCHIJA | netherendingores                             | 1.12.2-1.3               | Netherending-Ores-1.12.2-1.3(1).jar           | None                                     |
+       | LCHIJA | netherex                                     | 2.0.15                   | NetherEx-1.12.2-2.0.15.jar                    | None                                     |
+       | LCHIJA | openmods                                     | 0.12.2                   | OpenModsLib-1.12.2-0.12.2.jar                 | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | LCHIJA | openblocks                                   | 1.8.1                    | OpenBlocks-1.12.2-1.8.1.jar                   | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+       | LCHIJA | oreexcavation                                | 1.4.140                  | OreExcavation-1.4.140.jar                     | None                                     |
+       | LCHIJA | foamfix                                      | 0.10.5-1.12.2            | Performance - FoamFix.jar                     | None                                     |
+       | LCHIJA | vanillafix                                   | 1.0.10-SNAPSHOT          | Performance - VanillaTweaks.jar               | None                                     |
+       | LCHIJA | shetiphiancore                               | 3.5.9                    | Core Mods - ShetiPhianCore.jar                | None                                     |
+       | LCHIJA | platforms                                    | 1.4.6                    | platforms-1.12.0-1.4.6.jar                    | None                                     |
+       | LCHIJA | randomthings                                 | 4.2.7.3                  | RandomThings-MC1.12.2-4.2.7.3.jar             | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+       | LCHIJA | enderstorage                                 | 2.4.6.137                | Storage - Ender Storage.jar                   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | ironbackpacks                                | 1.12.2-3.0.8-12          | Storage - Iron Backpacks.jar                  | None                                     |
+       | LCHIJA | ironchest                                    | 1.12.2-7.0.67.844        | Storage - IronChest.jar                       | None                                     |
+       | LCHIJA | storagedrawers                               | 1.12.2-5.4.0             | Storage - StorageDrawers.jar                  | None                                     |
+       | LCHIJA | tinkersaether                                | 1.3.0                    | Tinker's Construct - Aether.jar               | None                                     |
+       | LCHIJA | armoryexpansion                              | 1.4.0                    | Tinker's Construct - Armory Expansion.jar     | None                                     |
+       | LCHIJA | armoryexpansion-custommaterials              | 1.4.0                    | Tinker's Construct - Armory Expansion.jar     | None                                     |
+       | LCHIJA | armoryexpansion-iceandfire                   | 1.4.0                    | Tinker's Construct - Armory Expansion.jar     | None                                     |
+       | LCHIJA | armoryexpansion-matteroverdrive              | 1.4.0                    | Tinker's Construct - Armory Expansion.jar     | None                                     |
+       | LCHIJA | tinkerscompendium                            | 1.4.2.29.3               | Tinker's Construct - Defense.jar              | None                                     |
+       | LCHIJA | taiga                                        | 1.12.2-1.3.3             | Tinker's Construct - TAIGA.jar                | None                                     |
+       | LCHIJA | tinkertoolleveling                           | 1.12.2-1.1.0.DEV.b23e769 | Tinker's Construct - Tool Leveling.jar        | None                                     |
+       | LCHIJA | golems_tcon                                  | 7.1.5-0                  | TinkersGolemsAddon-1.12-7.1.5-0.jar           | None                                     |
+       | LCHIJA | tombstone                                    | 3.5.8                    | tombstone-3.5.8-1.12.2.jar                    | None                                     |
+       | LCHIJA | csb_armorstand                               | 1.0.4                    | Tweaks - Armor Stand Configurator.jar         | None                                     |
+       | LCHIJA | clumps                                       | 3.1.2                    | Tweaks - Clumps.jar                           | None                                     |
+       | LCHIJA | controlling                                  | 3.0.7                    | Tweaks - Controlling.jar                      | None                                     |
+       | LCHIJA | ctgui                                        | 1.0.0                    | Tweaks - CraftTweaker.jar                     | None                                     |
+       | LCHIJA | crafttweakerjei                              | 2.0.3                    | Tweaks - CraftTweaker.jar                     | None                                     |
+       | LCHIJA | ido                                          | 1.0.4                    | Tweaks - Ido.jar                              | None                                     |
+       | LCHIJA | inventorytweaks                              | 1.63+release.109.220f184 | Tweaks - Inventory Tweaks.jar                 | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+       | LCHIJA | loottweaker                                  | 0.0.10                   | Tweaks - LootTweaker.jar                      | None                                     |
+       | LCHIJA | morpheus                                     | 1.12.2-3.5.106           | Tweaks - Morpheus.jar                         | None                                     |
+       | LCHIJA | quickleafdecay                               | 1.2.4                    | Tweaks - QuickLeafDecay.jar                   | None                                     |
+       | LCHIJA | soundfilters                                 | 0.11_for_1.12            | Tweaks - Sound Filters.jar                    | None                                     |
+       | LCHIJA | appleskin                                    | 1.0.9                    | User Interface - AppleSkin.jar                | None                                     |
+       | LCHIJA | jeresources                                  | 0.9.2.60                 | User Interface - Just Enough Resources.jar    | None                                     |
+       | LCHIJA | modnametooltip                               | 1.10.1                   | User Interface - Mod Name Tooltip.jar         | None                                     |
+       | LCHIJA | neat                                         | 1.4-17                   | User Interface - Neat.jar                     | None                                     |
+       | LCHIJA | overpoweredarmorbar                          | @VERSION@                | User Interface - Overladed Armor Bars.jar     | None                                     |
+       | LCHIJA | solcarrot                                    | 1.8.3                    | Content- Spice of Life.jar                    | None                                     |
+       | LCHIJA | orelib                                       | 3.5.2.2                  | Core Mods - OreLib.jar                        | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+       | LCHIJA | dsurround                                    | 3.5.4.3                  | DynamicSurroundings-1.12.2-3.5.4.3.jar        | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+       | LCHIJA | mysticallib                                  | 1.12.2-1.3.7             | Core Mods - Mystical Lib.jar                  | None                                     |
+       | LCHIJA | armoryexpansion-conarm                       | 1.4.0                    | Tinker's Construct - Armory Expansion.jar     | None                                     |
+  Loaded coremods (and transformers): VanillaFixLoadingPlugin (Performance - VanillaTweaks.jar)
+                                        
+                                      MovingWorldCore (Core Mods - MovingWorld.jar)
+                                        
+                                      OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+                                        openmods.core.OpenModsClassTransformer
+                                      CTMCorePlugin (Tweaks - Connected Textures Mod.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      AstralCore (astralsorcery-1.12.2-1.10.20.jar)
+                                        
+                                      llibrary (llibrary-core-1.0.11-1.12.2.jar)
+                                        net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+                                        net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+                                      AppleCore (Core Mods - AppleCore.jar)
+                                        squeek.applecore.asm.TransformerModuleHandler
+                                      ShetiPhian-ASM (ShetiPhian-ASM-1.12.0.jar)
+                                        shetiphian.asm.ClassTransformer
+                                      LoadingPlugin (RandomThings-MC1.12.2-4.2.7.3.jar)
+                                        lumien.randomthings.asm.ClassTransformer
+                                      LoadingPlugin (Reskillable-1.12.2-1.12.5.jar)
+                                        codersafterdark.reskillable.base.asm.ClassTransformer
+                                      Inventory Tweaks Coremod (Tweaks - Inventory Tweaks.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      IELoadingPlugin (ImmersiveEngineering-core-0.12-91.jar)
+                                        blusunrize.immersiveengineering.common.asm.IEClassTransformer
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (Performance - FoamFix.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      RandomPatches (Core Mods - RandomPatches.jar)
+                                        com.therandomlabs.randompatches.core.RPTransformer
+                                      DynamicSurroundingsCore (DynamicSurroundings-core-1.12.2-3.5.4.3.jar)
+                                        org.orecruncher.dsurround.asm.Transformer
+  GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+  OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+  Pulsar/tconstruct loaded Pulses: - TinkerCommons (Enabled/Forced)
+                                   - TinkerWorld (Enabled/Not Forced)
+                                   - TinkerTools (Enabled/Not Forced)
+                                   - TinkerHarvestTools (Enabled/Forced)
+                                   - TinkerMeleeWeapons (Enabled/Forced)
+                                   - TinkerRangedWeapons (Enabled/Forced)
+                                   - TinkerModifiers (Enabled/Forced)
+                                   - TinkerSmeltery (Enabled/Not Forced)
+                                   - TinkerGadgets (Enabled/Not Forced)
+                                   - TinkerOredict (Enabled/Forced)
+                                   - TinkerIntegration (Enabled/Forced)
+                                   - TinkerFluids (Enabled/Forced)
+                                   - TinkerMaterials (Enabled/Forced)
+                                   - TinkerModelRegister (Enabled/Forced)
+                                   - chiselIntegration (Enabled/Not Forced)
+                                   - theoneprobeIntegration (Enabled/Not Forced)
+  Pulsar/natura loaded Pulses: - NaturaCommons (Enabled/Forced)
+                               - NaturaOverworld (Enabled/Not Forced)
+                               - NaturaNether (Enabled/Not Forced)
+                               - NaturaDecorative (Enabled/Not Forced)
+                               - NaturaTools (Enabled/Not Forced)
+                               - NaturaEntities (Enabled/Not Forced)
+                               - NaturaOredict (Enabled/Forced)
+                               - NaturaWorld (Enabled/Not Forced)
+  Suspected Mods: Tinkers' Golems Addon (golems_tcon), Extra Golems (golems)
