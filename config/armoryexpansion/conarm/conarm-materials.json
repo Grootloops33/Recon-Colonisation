@@ -177,6 +177,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 31.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.8,
+      "modifier": 31.5,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.8,
+      "materialType": "trim"
+    },
+    "identifier": "tanzanite",
+    "color": -43521,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 0.0,
       "defense": 0.0,
       "materialType": "core"
@@ -588,6 +610,28 @@
       "materialType": "trim"
     },
     "identifier": "livingwood_plustic",
+    "color": -16733696,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 30.0,
+      "defense": 27.45,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 2.24,
+      "modifier": 27.45,
+      "toughness": -0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.24,
+      "materialType": "trim"
+    },
+    "identifier": "malachite_gem",
     "color": -16733696,
     "type": "METAL",
     "castable": false,
@@ -1007,6 +1051,28 @@
     },
     "identifier": "treatedwood",
     "color": -10144478,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 34.0,
+      "defense": 25.65,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 25.65,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "amber",
+    "color": -22016,
     "type": "METAL",
     "castable": false,
     "craftable": true
@@ -1915,6 +1981,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 51.0,
+      "defense": 36.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 36.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "amethyst",
+    "color": -43521,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
+  },
+  {
+    "coreMaterialStats": {
       "durability": 28.0,
       "defense": 31.5,
       "materialType": "core"
@@ -2000,6 +2088,28 @@
     "type": "METAL",
     "castable": true,
     "craftable": false
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 32.0,
+      "defense": 27.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 7.28,
+      "modifier": 27.0,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 7.28,
+      "materialType": "trim"
+    },
+    "identifier": "topaz",
+    "color": -22016,
+    "type": "METAL",
+    "castable": false,
+    "craftable": true
   },
   {
     "coreMaterialStats": {
