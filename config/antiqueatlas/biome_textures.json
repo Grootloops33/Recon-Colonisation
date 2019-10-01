@@ -75,6 +75,17 @@
     "biomesoplenty:white_beach": "SHORE",
     "biomesoplenty:woodland": "DENSE_FOREST",
     "biomesoplenty:xeric_shrubland": "SAVANNA",
+    "erebus:elysian_fields": "PLAINS",
+    "erebus:fields_sub_forest": "FOREST",
+    "erebus:fungal_forest": "PLAINS",
+    "erebus:petrified_forest": "PLAINS",
+    "erebus:submerged_swamp": "SWAMP",
+    "erebus:subterranean_savannah": "SAVANNA",
+    "erebus:ulterior_outback": "PLAINS",
+    "erebus:underground_jungle": "JUNGLE",
+    "erebus:volcanic_desert": "PLAINS",
+    "fossil:lair of darkness": "PLAINS",
+    "fossil:treasure": "PLAINS",
     "iceandfire:glacier": "SNOW",
     "minecraft:beaches": "SHORE",
     "minecraft:birch_forest": "BIRCH",
@@ -164,6 +175,7 @@
     "twilightforest:twilight_highlands": "PINES_HILLS",
     "twilightforest:twilight_lake": "WATER",
     "twilightforest:twilight_stream": "WATER",
-    "twilightforest:twilight_swamp": "SWAMP"
+    "twilightforest:twilight_swamp": "SWAMP",
+    "vampirism:vampireforest": "DENSE_FOREST"
   }
 }

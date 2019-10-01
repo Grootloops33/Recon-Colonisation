@@ -14,9 +14,9 @@ generate_help_data=false
 random_uid=8451725227846888448
 
 //Advancement completed for anonymous statistics
-advancements_creative=
+advancements_creative=firstcontact,marcopolo
 
 //Advancement completed for anonymous statistics
-advancements_survival=firstcontact,explorer
+advancements_survival=firstcontact,explorer,marcopolo,darkside
 
-validation=346190916
+validation=346191041

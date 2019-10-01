@@ -1,36 +1,45 @@
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: Skills.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Descriptions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: Vanilla\Skills.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: BlockCraftery.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: JJCoatOfArms.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Looting\VanillaChests.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Mystical Agriculture\InfusionCrystals.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tinkers\Fuels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tinkers\TinkersMaterialLocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\Descriptions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\OreDic.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\Reskillable.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\Vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Worktables\Worktables.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Worktables\WorktablesTest.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 2ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [contenttweaker]
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: Skills.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Descriptions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[1000:crafttweaker]: Vanilla\Skills.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: BlockCraftery.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: JJCoatOfArms.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Looting\VanillaChests.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Mystical Agriculture\InfusionCrystals.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: OreDic.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: recipes.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tinkers\Fuels.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Tinkers\TinkersMaterialLocks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\Descriptions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\OreDic.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\Reskillable.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Vanilla\Vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Worktables\Worktables.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [contenttweaker | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Worktables\WorktablesTest.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 1ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: Skills.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[1000:crafttweaker]: Vanilla\Skills.zs}
 [INITIALIZATION][CLIENT][INFO] Created or Loaded Skill: compatskills:exploration - With Background: iceandfire:textures/items/dragon_meal.png
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Descriptions.zs}
+[INITIALIZATION][CLIENT][INFO] Created or Loaded Skill: compatskills:tinkering - With Background: tconstruct:textures/blocks/slime/slime_purple.png
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: BlockCraftery.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: JJCoatOfArms.zs}
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Banner Cloth
 [INITIALIZATION][CLIENT][INFO] Adding a Table Crafting recipe for Banner Cloth
@@ -44,18 +53,97 @@
 [INITIALIZATION][CLIENT][INFO] Queuing entry minecraft:diamond for addition to pool preciousItems of table minecraft:chests/abandoned_mineshaft
 [INITIALIZATION][CLIENT][INFO] Queuing entry minecraft:emerald for addition to pool preciousItems of table minecraft:chests/abandoned_mineshaft
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Mystical Agriculture\InfusionCrystals.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: OreDic.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Tinkers\Fuels.zs}
+[INITIALIZATION][CLIENT][ERROR] Tinkers\Fuels.zs:3 > No such member: Smeltery
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: Tinkers\Fuels.zs}: Bad type on operand stack
+Exception Details:
+  Location:
+    Tinkers\Fuels.__script__()V @33: ifnonnull
+  Reason:
+    Type integer (current frame, stack[5]) is not assignable to reference type
+  Current Frame:
+    bci: @33
+    flags: { }
+    locals: { }
+    stack: { null, '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, integer, integer }
+  Bytecode:
+    0x0000000: 0112 0abd 000c 5912 0d12 0fb8 0015 59c7
+    0x0000010: 0008 5701 a700 06b8 001b 5359 121c 121d
+    0x0000020: 59c7 0008 5701 a700 06b8 0022 b800 2859
+    0x0000030: c700 0857 01a7 0006 b800 2253 b900 2c02
+    0x0000040: 0057 b1                                
+  Stackmap Table:
+    full_frame(@23,{},{Null,Object[#46],Object[#46],Integer,Object[#48]})
+    full_frame(@26,{},{Null,Object[#46],Object[#46],Integer,Object[#12]})
+    full_frame(@41,{},{Null,Object[#46],Object[#46],Integer,Integer})
+    full_frame(@44,{},{Null,Object[#46],Object[#46],Integer,Object[#12]})
+    full_frame(@56,{},{Null,Object[#46],Object[#46],Integer,Object[#50]})
+    full_frame(@59,{},{Null,Object[#46],Object[#46],Integer,Object[#12]})
+
+java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    Tinkers\Fuels.__script__()V @33: ifnonnull
+  Reason:
+    Type integer (current frame, stack[5]) is not assignable to reference type
+  Current Frame:
+    bci: @33
+    flags: { }
+    locals: { }
+    stack: { null, '[Lstanhebben/zenscript/value/IAny;', '[Lstanhebben/zenscript/value/IAny;', integer, integer, integer }
+  Bytecode:
+    0x0000000: 0112 0abd 000c 5912 0d12 0fb8 0015 59c7
+    0x0000010: 0008 5701 a700 06b8 001b 5359 121c 121d
+    0x0000020: 59c7 0008 5701 a700 06b8 0022 b800 2859
+    0x0000030: c700 0857 01a7 0006 b800 2253 b900 2c02
+    0x0000040: 0057 b1                                
+  Stackmap Table:
+    full_frame(@23,{},{Null,Object[#46],Object[#46],Integer,Object[#48]})
+    full_frame(@26,{},{Null,Object[#46],Object[#46],Integer,Object[#12]})
+    full_frame(@41,{},{Null,Object[#46],Object[#46],Integer,Integer})
+    full_frame(@44,{},{Null,Object[#46],Object[#46],Integer,Object[#12]})
+    full_frame(@56,{},{Null,Object[#46],Object[#46],Integer,Object[#50]})
+    full_frame(@59,{},{Null,Object[#46],Object[#46],Integer,Object[#12]})
+
+	at __ZenMain__.run(Tinkers\Fuels)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:225)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:105)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:69)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_984_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:857)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:636)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:747)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Tinkers\TinkersMaterialLocks.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla\Descriptions.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla\OreDic.zs}
 [INITIALIZATION][CLIENT][INFO] Adding Saw to ore dictionary entry artisansHandsaw
+[INITIALIZATION][CLIENT][INFO] Adding Shears to ore dictionary entry artisansShears
 [INITIALIZATION][CLIENT][INFO] Adding Grass Fiber to ore dictionary entry fiberHemp
 [INITIALIZATION][CLIENT][INFO] Adding Roughspun Cord to ore dictionary entry string
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: recipes.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla\Reskillable.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Vanilla\Vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Worktables\Worktables.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Worktables\WorktablesTest.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 464ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 485ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing Shapeless recipes for <minecraft:string>
 [POSTINITIALIZATION][CLIENT][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "natura:common/string"
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Framed Block with name ct_shaped-1533345363
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Oak Wood Planks with name ct_shapeless2002667340
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Spruce Wood Planks with name ct_shapeless1568682668
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Birch Wood Planks with name ct_shapeless-1956191092
@@ -84,6 +172,18 @@
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint with name ct_shapeless1989407939
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Worktable with name ct_shaped274225299
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Basic Workstation with name ct_shaped-1888271840
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: iron With Requirements: reskillable:mining|5, compatskills:tinkering|7, reskillable:attack|5, reskillable:defense|10, adv|minecraft:story/smelt_iron
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: copper With Requirements: reskillable:mining|3, compatskills:tinkering|5, reskillable:attack|3, reskillable:defense|10
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: cobalt With Requirements: reskillable:mining|10, compatskills:tinkering|20, reskillable:attack|10, reskillable:defense|10
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: ardite With Requirements: reskillable:mining|10, compatskills:tinkering|20, reskillable:attack|10, reskillable:defense|10
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: manyullyn With Requirements: reskillable:mining|12, compatskills:tinkering|22, reskillable:attack|12, reskillable:defense|12
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: ma.base_essence With Requirements: reskillable:Magic|5, compatskills:tinkering|10, adv|minecraft:story/smelt_iron
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: ma.inferium With Requirements: reskillable:Magic|6, compatskills:tinkering|13, adv|minecraft:story/smelt_iron
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: ma.prudentium With Requirements: reskillable:Magic|8, compatskills:tinkering|16, adv|minecraft:story/smelt_iron
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: ma.intermedium With Requirements: reskillable:Magic|10, compatskills:tinkering|20, adv|minecraft:story/smelt_iron
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: ma.superium With Requirements: reskillable:Magic|12, compatskills:tinkering|24, adv|minecraft:story/smelt_iron, adv|minecraft:story/enter_the_nether, adv|minecraft:story/enter_the_end
+[POSTINITIALIZATION][CLIENT][INFO] Added Material Lock for Material: ma.supremium With Requirements: reskillable:Magic|15, compatskills:tinkering|30, adv|minecraft:story/smelt_iron, adv|minecraft:story/enter_the_nether, adv|minecraft:story/enter_the_end, minecraft:end/kill_dragon, minecraft:nether/summon_wither
+[POSTINITIALIZATION][CLIENT][INFO] Setting the requirement of: Iron Backpack to Requirements: compatskills:exploration|5
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <aether_legacy:pig_slayer:*>
 [AVAILABLE][CLIENT][INFO] Adding description in JEI for: <aether_legacy:vampire_blade:*>
@@ -96,6 +196,10 @@
 [AVAILABLE][CLIENT][INFO] Applied tweaks to table minecraft:chests/abandoned_mineshaft
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <jjcoa:block_struttura_stendardo_1b>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <mysticalagriculture:infusion_crystal>
+[SERVER_ABOUT_TO_START][SERVER][INFO] Cleared entries of table minecraft:chests/abandoned_mineshaft
+[SERVER_ABOUT_TO_START][SERVER][INFO] Applied tweaks to table minecraft:chests/abandoned_mineshaft
+[SERVER_ABOUT_TO_START][SERVER][INFO] Cleared entries of table minecraft:chests/abandoned_mineshaft
+[SERVER_ABOUT_TO_START][SERVER][INFO] Applied tweaks to table minecraft:chests/abandoned_mineshaft
 [SERVER_ABOUT_TO_START][SERVER][INFO] Cleared entries of table minecraft:chests/abandoned_mineshaft
 [SERVER_ABOUT_TO_START][SERVER][INFO] Applied tweaks to table minecraft:chests/abandoned_mineshaft
 [SERVER_ABOUT_TO_START][SERVER][INFO] Cleared entries of table minecraft:chests/abandoned_mineshaft
